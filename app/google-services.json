@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "291681745600",
+    "project_id": "tugas-akhir-pam-2ff1a",
+    "storage_bucket": "tugas-akhir-pam-2ff1a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291681745600:android:69fbb61fef9d758d4ecb25",
+        "android_client_info": {
+          "package_name": "com.example.ionotes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBFaD3L1ROWYLfiNm9xwdtnadWTTh20SM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291681745600:android:457d1cab82b7d7f74ecb25",
+        "android_client_info": {
+          "package_name": "com.example.techou"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBFaD3L1ROWYLfiNm9xwdtnadWTTh20SM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
