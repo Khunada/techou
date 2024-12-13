@@ -57,18 +57,37 @@
             android:textColor="@color/black"/>
 
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:id="@+id/notes_content_text"
+            android:layout_width="match_parent"
+            android:layout_height="178dp"
+            android:layout_marginVertical="8dp"
+            android:gravity="top"
             android:hint="Content"
             android:minLines="15"
-            android:gravity="top"
-            android:textSize="20sp"
-            android:layout_marginVertical="8dp"
             android:padding="12dp"
-            android:textColor="@color/black"/>
+            android:textColor="@color/black"
+            android:textSize="20sp" />
 
+        <ImageView
+            android:id="@+id/note_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/placeholder_image"
+            android:contentDescription="Note Image" />
+
+        <ImageButton
+            android:id="@+id/select_image_btn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/my_primary"
+            android:src="@drawable/ic_add_image"
+            android:text="Select Image"
+            android:textColor="@android:color/white" />
     </LinearLayout>
+
 
     <TextView
         android:layout_width="match_parent"
